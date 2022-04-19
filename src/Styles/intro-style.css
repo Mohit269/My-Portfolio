@@ -1,0 +1,53 @@
+.intro {
+  display: flex;
+}
+.intro-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-right {
+  flex: 1;
+}
+.intro-left-wrapper {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intro-intro {
+  font-size: 30px;
+  font-weight: 300;
+}
+.intro-name {
+  font-size: 60px;
+}
+.intro-title {
+  height: 50px;
+  overflow: hidden;
+}
+.intro-title-item {
+  height: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+}
+.intro-title-wrapper {
+  height: 100%;
+  animation: move 3s ease-in-out infinite alternate-reverse;
+  color: rgb(151, 238, 64);
+}
+@keyframes move {
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+.intro-desc {
+  padding-top: 20px;
+  font-size: large;
+}

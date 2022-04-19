@@ -1,9 +1,10 @@
 import React from "react";
+import Introduction from "./components/Introduction";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello this is react app</h1>
+    <div>
+      <Introduction />
     </div>
   );
 }
