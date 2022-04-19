@@ -28,7 +28,7 @@ export default function Introduction() {
         </div>
       </div>
       <div className="intro-right">
-        <h1>Right</h1>
+        <div className="intro-right-pic"></div>
       </div>
     </div>
   );
